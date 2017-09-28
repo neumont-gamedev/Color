@@ -100,7 +100,7 @@ public class Colors : MonoBehaviour
 
         m_rgb.color = color;
 
-        m_descriptionText.text = "RGB - " + bitDepth[bitDepthIndex]  + " (" + m_colorDefinition.channels + ") - " + m_colorDefinition.colors.ToString();
+        m_descriptionText.text = "Bits: " + m_colorDefinition.channels + "\n" + "Number of Colors: " + m_colorDefinition.colors.ToString();
     }
 
     public void RedSlider(Slider slider)
